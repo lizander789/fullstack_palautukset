@@ -1,1 +1,15 @@
-### osan 0 tehtävät
+# osan 0 tehtävät
+## 0.4
+
+```mermaid
+  sequenceDiagram
+    participant browser
+    participant server
+    
+    browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/notes
+    activate server
+    server-->>browser: HTML document
+    deactivate server
+    
+    
+```
