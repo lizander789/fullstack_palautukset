@@ -10,13 +10,13 @@
     server->>browser: redirect
 
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/notes
-    server->>browser: HTML document (to form the page)
+    server->>browser: HTML document to form the page
 
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/main.css
-    server->>browser: CSS file (to style the page)
+    server->>browser: CSS file to style the page
 
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/main.js
-    server->>browser: Javascript file (for page functionality)
+    server->>browser: Javascript file for more page functionality
 
     browser->>:server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
     server->>browser: JSON file with the messages
