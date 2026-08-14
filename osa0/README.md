@@ -18,6 +18,6 @@
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/main.js
     server->>browser: Javascript file for more page functionality
 
-    browser->>:server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
+    browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
     server->>browser: JSON file with the messages
 ```
